@@ -83,15 +83,13 @@ void Particle::update() {
 	pos += vel;
 	vel = startVel + (timePassed / lifetime) * (endVel - startVel);
 	rect.setPosition(pos);
-	//size = startSize + (timePassed / lifetime) * (endSize - startSize);
 	switch (behavior) {
 	case 0:
 		size.x = bounce_easeIn(timePassed, startSize.x, endSize.x - startSize.x, lifetime);
 		size.y = bounce_easeIn(timePassed, startSize.y, endSize.y - startSize.y, lifetime);
 		break;
 	case 1:
-		size.x = bounce_easeOut(timePassed, startSize.x, endSize.x - startSize.x, lifetime);
-		size.y = bounce_easeOut(timePassed, startSize.y, endSize.y - startSize.y, lifetime);
+		size = startSize + (timePassed / lifetime) * (endSize - startSize);
 		break;
 	case 2:
 		size.x = circ_easeIn(timePassed, startSize.x, endSize.x - startSize.x, lifetime);
