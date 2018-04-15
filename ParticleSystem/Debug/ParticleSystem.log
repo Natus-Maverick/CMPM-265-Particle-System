@@ -1,4 +1,1 @@
-﻿  ParSys.cpp
-c:\users\natus maverick\source\repos\particlesystem\particlesystem\parsys.cpp(46): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\natus maverick\source\repos\particlesystem\particlesystem\parsys.cpp(70): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
-  ParticleSystem.vcxproj -> C:\Users\Natus Maverick\source\repos\ParticleSystem\Debug\ParticleSystem.exe
+﻿  ParticleSystem.vcxproj -> D:\GitHub\Repos\CMPM-265-Particle-System\Debug\ParticleSystem.exe

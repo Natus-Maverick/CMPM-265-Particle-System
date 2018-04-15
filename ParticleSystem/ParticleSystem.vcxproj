@@ -146,13 +146,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ParMgr.cpp" />
     <ClCompile Include="ParSys.cpp" />
     <ClCompile Include="Particle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Global.h" />
-    <ClInclude Include="ParMgr.h" />
     <ClInclude Include="ParSys.h" />
     <ClInclude Include="Particle.h" />
   </ItemGroup>
